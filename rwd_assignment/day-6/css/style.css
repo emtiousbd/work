@@ -1,0 +1,394 @@
+@font-face{
+    font-family:"abc";
+    src : url(../fonts/AlexBrush-Regular.ttf);
+}
+
+
+body {
+
+	margin: 0 ;
+    padding: 0;
+    background-image: url('../image/background.jpg');
+
+}
+.container{
+    width: 90%;
+    min-height: 750px;
+    margin: auto;      
+}
+
+.welcome-text , .welcome-description, .welcome-banner, .special-food-lable , .special-food-pic , .bellow-menu ,.footer , .copy-right , .page-lable , .about-description , .about-video , .service-video ,.sub-food-menu , .order-form{ 
+    width: 100%;
+}
+.header{ 
+    height: 50px;
+    position: fixed;
+    width: 90%;
+    background: white
+
+}
+.logo{ 
+    width: 50%;
+    height: 100% ;
+    float: left ;
+}
+.logo img{
+    height: 100%;
+}
+
+.header-menu-item {
+  	background: #E04D29;
+    font-size: 13px;
+    font-family : courier ;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 1.5% ;
+    margin-right: 1%
+    
+}
+
+.header-menu-item a {
+    text-decoration: none;
+    color: white ;
+    
+}
+
+
+#nav{
+    margin: 0;
+    padding: 0;
+}
+#nav>li{
+    list-style: none;
+    float: left;
+    margin-top: 1.5% ;
+    margin-right: 1%
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+    background: #E04D29;
+    font-size: 13px;
+    font-family : courier ;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+
+
+    transition: 2s;
+    -webkit-transition: 2s;
+    -ms-transition: 2s;
+    -moz-transition: 2s;
+}
+
+#nav li a:hover{
+    background: #222;
+    transition: 2s;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+    display: none;
+        
+}
+
+
+#nav ul li{
+
+    list-style: none;
+    float: none;
+    
+}
+#nav ul li a{
+    margin-top: 3px;
+    margin-bottom: 1px;
+
+}
+#nav li:hover ul {
+    display: block;
+}
+
+.welcome-text{
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.welcome-text h1{
+    text-align: center;
+    font-family:courier ;  
+}
+
+.welcome-description{ 
+    height: 50px;
+}
+
+.welcome-description h4{ 
+    text-align: center;
+    margin: 0 ;
+}
+
+.welcome-description h4 a{ 
+    text-decoration: none ;
+    color: red
+}
+
+.welcome-banner{
+    height: 300px;
+    padding-top: 60px;
+}
+
+.welcome-banner img{
+   width: 100%;
+   height: 100%    
+}
+
+.special-food-lable{
+    min-height: 30px ;
+    padding-top: 5px
+ 
+
+   
+}
+
+.special-food-lable h3{ 
+    background: #E04D29;
+	color : white;
+    margin: 0;
+    padding: 0;
+}
+
+.special-food-pic{
+    height: 300px;
+}
+
+.special-food-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer{  
+    min-height: 100px;
+    float: right
+        
+}
+.footer ul{  
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.footer ul li{
+    
+    list-style: none;
+    padding: 5px;
+}
+
+.copy-right{ 
+    height: 40px;
+}
+
+.copy-right p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+         
+}
+
+
+.page-lable{
+    height: 20px
+}
+
+.about-description{
+    min-height: 175px
+}
+.about-vodeo{
+   min-height: 175px 
+    
+}
+
+.service-video{
+    height: 240px   
+}
+.s-video-1{
+    width: 50% ;
+    height: 100%;
+    float: left;
+ 
+}
+
+.s-video-2{
+    width: 50% ;
+    height: 100%;
+    float: left;
+ 
+}
+
+.service-video-1 {
+    width: 420px;
+/*    margin-right: 20px;*/
+    float: left
+    
+   
+}
+
+.service-video-2 {
+    width: 425px;
+/*    margin-left: 20px;*/
+    float: left
+}
+
+.sub-food-menu{
+    height: 270px;
+}
+
+.sub-menu-1{
+    width: 50%;
+    height: 100%;
+    float: left ;
+
+}
+.sub-menu-1 img{
+    width: 95%;
+    height: 200px
+ 
+}
+
+.sub-menu-2{
+    width: 50%;
+    height: 100%;
+    float: left;
+   
+}
+.sub-menu-2 img{
+    width: 95%;
+    height: 200px ;
+}
+
+.order-form{
+    
+    min-height: 200px
+}
+
+.find-in-map{
+    margin-top: 10px;
+}
+
+.contact-info ul {
+    padding: 0 ;
+    margin:  0;
+}
+.contact-info ul li{
+    list-style: none
+}
+
+
+
+
+@media only screen and (min-width:220px) and (max-width:910px){
+    
+    .container{
+        width: 100% ;
+    }
+    .logo{
+        width: 20% ;
+        padding: 0 ;
+        margin: 0 ;
+    }
+    .menu{
+        width: 80%;
+        margin-top: 5px
+    }
+
+    .welcome-text{
+        font-size:12px;
+        margin-bottom: 5px
+    }
+    .welcome-description h4{
+    font-size:12px;
+   
+    }
+    .welcome-description a { 
+       
+        padding-left: 50px ;      
+    }
+    .welcome-banner{
+        
+        margin-bottom: 10px;
+        margin-top: 20px;    
+    }
+
+    .footer{
+        font-size: 12px
+    }
+        .footer ul li h3{
+        margin: 0
+    }
+    .footer ul li img{
+        width: 4%
+    }
+    .copy-right{
+        font-size: 10px
+    }
+    .about-description{
+        font-size: 13px;
+        margin: 5px
+            
+    }
+    .contact-info ul li{
+        font-size: 12px
+    }
+    
+    .sub-menu-1 , .sub-menu-2{
+        
+        font-size:12px;
+    }
+    .sub-menu-1 , .sub-menu-2{
+
+        margin-bottom: 0px;
+        height: auto
+    }
+    
+    .service-video{
+    height: 140px   
+}
+    .s-video-1 , .s-video-2 {
+        float: none;
+    }
+    .service-video-1 , .service-video-2{
+        
+        margin-bottom: 10px ;
+        padding-left: 5px;
+        width: 198%
+    }
+    
+    .order-form{
+        margin-top: 15px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

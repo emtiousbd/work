@@ -1,0 +1,141 @@
+body {
+
+	background-image: url('../image/background.jpg');
+	//background-color: #cccccc;
+
+}
+
+
+a , p{ 
+	font-family : courier\
+
+}
+
+p{ 
+	color : black
+}
+
+a{ 
+	color : white
+}
+.about{
+    margin: 30px;
+}
+
+.contact{
+    margin-left: 30px;
+}
+
+.about-video{
+   margin-left: 30px; 
+    margin-bottom: 10px;
+   width: 943px;
+    height: auto;
+}
+
+.home-page-banner{
+
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.upper-menu{
+	background: #E04D29;
+	padding-right:70px;
+    font-size: 13px;
+    font-family : courier ;
+    
+}
+
+.upper-menu-table{;
+	padding-right:17px;
+
+    
+}
+
+.special-food{
+	background: #E04D29;
+	color : white;
+	margin: 24px	
+}
+
+.bellow_menu {
+	background: white;
+    font-family : courier ;
+    font-size: 13px;
+}
+.bellow_menu a{
+	color: red
+}
+
+.special-menu-picker a{
+	color: red
+}
+
+.banner-image{
+   margin-left: 30px; 
+   margin-top: 20px;
+   width: 943px;
+}
+
+.page-lable-background{
+	background: #E04D29;
+	color : white;
+    margin-left: 30px;
+    margin-right: 18px;
+    font-family : courier ;
+    
+}
+
+
+.bellow-contact th{
+    
+   font-family : courier ;
+   font-size: 13px;
+       
+}
+
+.service-video-1 {
+    width: 465px;
+    margin: 0 0 10px 27px;
+    
+   
+}
+
+.service-video-2 {
+    width: 465px;
+    margin: 0 0 10px 0 ;
+    
+   
+}
+.food-item-image-left{
+    width:465px;
+    height: 200px;
+    margin-right: 5px
+}
+
+.food-item-image-right{
+    width:460px;
+    height: 200px;
+    margin-left: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0

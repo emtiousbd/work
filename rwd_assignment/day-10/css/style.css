@@ -1,0 +1,65 @@
+.container{
+    
+    padding: 0px 50px !important
+    
+}
+body{
+    background: #f3f4f6
+}
+
+.rounded-header{
+    border-radius: 26px 26px 0px 0px;
+
+}
+.navbar{
+    
+    margin-top: 60px;
+}
+.navbar-nav li a{
+    font-family: -apple-system;
+    background: #f3f4f6 ;
+    border-radius: 5px ;
+    margin:  5px;
+    
+        
+}
+
+.dropdown-menu a{
+    
+    width: 93%;
+    padding-left: 9px;
+  
+}
+
+.jumbotron h3 ,h2 ,p , .feature-title , .card h5{
+    
+    font-family: -apple-system;
+}
+
+.jumbotron a{
+    border-radius: 10px ;
+    background: #ffd27f;
+        font-family: -apple-system;
+}
+
+.card a {
+    
+ border-radius: 10px ;
+color: black ;
+ border: 3px solid #ffd27f
+}
+
+.footer-part{
+    
+       border-radius: 0px 0px 26px 26px ;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
